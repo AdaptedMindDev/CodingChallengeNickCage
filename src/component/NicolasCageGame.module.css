@@ -1,0 +1,27 @@
+.wrapper{
+  padding: 5vw;
+  background-color: #eee;
+  
+}
+
+.boundingBox{
+  height: 500px;
+  width: 500px;
+  border: 1px solid red;
+}
+
+.clickPoint{
+  position: absolute;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.clickPoint:hover{
+  opacity: 0.5;
+}
+
+.nickImage{
+  height: 100%;
+  width: 100%;
+}
