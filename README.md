@@ -37,15 +37,14 @@ Each Nick has its own set of points and should be remembered as long as the page
   **Play Screen**
   - Clicking the Nick currently causes the app to crash, it should increase your points and change Nick's location.
   - The Nick's position should be random to start.
-  - The bounding box should be 80% of the width of the screen with 10% padding on each side. The height should be such that the bottom border should always be 20px from the bottom of the screen no matter the screen size.
+  - The bounding box should be 80% of the width of the screen with 10% padding on each side. 
   - The position of Nick should be constrained to be inside the bounding box, and should be able to appear anywhere within it.
   - Each Nick should keep track of its own set of points.
   - Clicking in the bounding box, and not on Nick, reduces your points by 3.
-  - This screen should not be scrollable
+
 
   **Animations**
   - In the game, whenever you click Nicolas Cage's picture, it moves to somewhere else on the screen. This movement should be animated; it lasts for 1 second and uses an "ease-in-out" style animation (slow start and end). When it reaches the end, it should sparkle using the sparkle.webm asset provided in the public folder.
-  - In the game, whenever you click Nicolas Cage's picture, the star animation (star_fly.webm provided in the public folder) should play such that the star moves from Nicolas Cage's image into the cage in the top area. Only after this happens do we update the total point count.
 
 ## Result
 
@@ -61,7 +60,7 @@ Each Nick has its own set of points and should be remembered as long as the page
 2) Alice clicks "Play" to go to the **Play Screen**
    - The picture of the chosen Nick moves to a random location within the bounding box
 3) Alice clicks on the Nick inside the bounding box
-   - A star flys from the picture of Nick into the cage in the top area
+   - (Bonus) A star flys from the picture of Nick into the cage in the top area
    - The picture of Nick moves to a new location inside the bounding box
    - The picture sparkles when it reaches its new location
    - The specified number of points are added to Alice's total score up top
@@ -85,7 +84,7 @@ Make it look amazing with animations!
 ### Bonus:
 Not required, but this extra functionality will effectively take this game from $1billion to $1trillion
 
-1) Make the cage move within the top area. Have the cage continuously be moving around the top portion of the screen and make sure that the star animation still flies into the cage even as it moves.
+1) Star Animation) In the game, whenever you click Nicolas Cage's picture, the star animation (star_fly.webm provided in the public folder) should play such that the star moves from Nicolas Cage's image into the cage in the top area. Only after this happens do we update the total point count.
 
 ### Final Note:
 You can add libraries, reorganize the code, and otherwise have free reign to make any changes you want in the course of implementing your solution. Make a note of your choices as you go and have fun!
