@@ -82,6 +82,40 @@ Implement the requirements and fix the bugs! The current implementation is missi
 ### Part 2:
 Make it look amazing with animations!
 
+### Part 3:
+Hook it up to the backend! We have provided a Firebase API for you to save your Nick scores. 
+
+```
+GET https://cagingnick-default-rtdb.firebaseio.com/cage/greg.json
+```
+Will return an array of nick scores you can use to initialize the data
+
+```
+PUT https://cagingnick-default-rtdb.firebaseio.com/cage/greg.json 
+
+[
+    {
+        "id": 1,
+        "image": "nick1.png",
+        "name": "normal nick",
+        "points": 10
+    },
+    {
+        "id": 2,
+        "image": "nick2.png",
+        "name": "cool nick",
+        "points": 7
+    },
+    {
+        "id": 3,
+        "image": "nick3.jpg",
+        "name": "crazy nick",
+        "points": 8
+    }
+]
+```
+Will update the array with whatever data you want to save and track. Create the api connection and use it to save and track your score!
+
 ### Bonus:
 Not required, but this extra functionality will effectively take this game from $1billion to $1trillion
 
