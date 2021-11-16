@@ -23,7 +23,7 @@ The picture of Nick will appear at a random location within the bounding box.
 Clicking Nick adds points to the point counter in the top area.
 Clicking outside of Nick, but still within the bounding box, will remove 3 points.
 
-Each Nick has its own set of points and should be remembered as long as the page is not refreshed.
+Each Nick has its own set of points and should be remembered even if the page is refreshed after hooking it up to the backend.
 
 ### Requirements:
 
@@ -85,11 +85,12 @@ Make it look amazing with animations!
 ### Part 3:
 Hook it up to the backend! We have provided a Firebase API for you to save your Nick scores. 
 
+To get the array of nick scores you can use to initialize the data:
 ```
 GET https://cagingnick-default-rtdb.firebaseio.com/cage/greg.json
 ```
-Will return an array of nick scores you can use to initialize the data
 
+To update the data array with whatever data you want to save and track:
 ```
 PUT https://cagingnick-default-rtdb.firebaseio.com/cage/greg.json 
 
@@ -114,7 +115,7 @@ PUT https://cagingnick-default-rtdb.firebaseio.com/cage/greg.json
     }
 ]
 ```
-Will update the array with whatever data you want to save and track. Create the api connection and use it to save and track your score!
+Create the api connection and use it to save and track your score!
 
 ### Bonus:
 Not required, but this extra functionality will effectively take this game from $1billion to $1trillion
