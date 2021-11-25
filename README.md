@@ -4,7 +4,7 @@
 
 The geniuses at AdaptedMind have come up with a certain game that will become the next billion-dollar business! It is called Caging Nicolas Cage. It is still in the early stages of development, and you have been tasked with adding some functionality and improvements to the game.
 
-The project has been started, but the current codebase is very buggy and doesn't have all the requirements implemented. We need your help to make this fantastic game even better!
+The project has been started, but the current codebase is very buggy, unorganized, and doesn't have all the requirements implemented. We need your help to make this fantastic game even better!
   
 There are two screens you can navigate between: **Choose** and **Play**.
 
@@ -87,12 +87,12 @@ Hook it up to the backend! We have provided a Firebase API for you to save your 
 
 To get the array of nick scores you can use to initialize the data:
 ```
-GET https://cagingnick-default-rtdb.firebaseio.com/cage/greg.json
+GET https://cagingnick-default-rtdb.firebaseio.com/cage/gabe.json
 ```
 
 To update the data array with whatever data you want to save and track:
 ```
-PUT https://cagingnick-default-rtdb.firebaseio.com/cage/greg.json 
+PUT https://cagingnick-default-rtdb.firebaseio.com/cage/gabe.json 
 
 [
     {
@@ -115,7 +115,7 @@ PUT https://cagingnick-default-rtdb.firebaseio.com/cage/greg.json
     }
 ]
 ```
-Create the api connection and use it to save and track your score!
+Create the api connection and use it to save and track your score! Also add a button on the choose nick screen that resets all scores.
 
 ### Bonus:
 Not required, but this extra functionality will effectively take this game from $1billion to $1trillion
