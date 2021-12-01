@@ -87,12 +87,12 @@ Hook it up to the backend! We have provided a Firebase API for you to save your 
 
 To get the array of nick scores you can use to initialize the data:
 ```
-GET https://cagingnick-default-rtdb.firebaseio.com/cage/gabe.json
+GET https://cagingnick-default-rtdb.firebaseio.com/cage/yourname.json
 ```
 
 To update the data array with whatever data you want to save and track:
 ```
-PUT https://cagingnick-default-rtdb.firebaseio.com/cage/gabe.json 
+PUT https://cagingnick-default-rtdb.firebaseio.com/cage/yourname.json 
 
 [
     {
