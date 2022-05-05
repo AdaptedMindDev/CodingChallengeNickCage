@@ -29,6 +29,7 @@ Each Nick has its own set of points and should be remembered even if the page is
 
   - Points cannot be negative
   - Points are saved for each Nick
+  - It should work on mobile and tablet devices
   
   **Choose Screen**
   - The Nick options should appear side by side. You can click to choose a Nick.
